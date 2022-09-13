@@ -9,7 +9,8 @@ main{
   padding: 20px;
   width: 800px;
   margin: 0 auto;
-  background-color: orange;
+  background-color: rgb(138, 241, 20);
+  
 }
 
 section{
@@ -23,16 +24,25 @@ section{
 }
 
 #section-1{
+  order: 2;
 }
 
 #section-2{
+  order: 3;
+  flex-grow: calc(2/5);
 }
 
 #section-3{
+  order: 4;
+  flex-grow:calc(3/5);
 }
 
 #section-4{
+  order: 5;
+  flex-basis: 200px;
 }
 
-#section-5{
+#section-5{ 
+  order: 1;
+ 
 }
